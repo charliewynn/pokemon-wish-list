@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/pokemon-wish-list/static/js/runtime~main.1773593d.js"
   },
   {
-    "revision": "8d02898bf4cd8260ae07",
-    "url": "/pokemon-wish-list/static/js/main.8d02898b.chunk.js"
+    "revision": "11283117235a73946944",
+    "url": "/pokemon-wish-list/static/js/main.11283117.chunk.js"
   },
   {
     "revision": "4ffd4ad2c5a893556113",
     "url": "/pokemon-wish-list/static/js/1.4ffd4ad2.chunk.js"
   },
   {
-    "revision": "8d02898bf4cd8260ae07",
+    "revision": "11283117235a73946944",
     "url": "/pokemon-wish-list/static/css/main.446a9fdf.chunk.css"
   },
   {
-    "revision": "4129db069743298ab9738ee6b820e876",
+    "revision": "7b519fedb9804d549097b8c983fefa33",
     "url": "/pokemon-wish-list/index.html"
   }
 ];
