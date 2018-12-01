@@ -1,7 +1,7 @@
 {
   "main.css": "/pokemon-wish-list/static/css/main.16143678.chunk.css",
-  "main.js": "/pokemon-wish-list/static/js/main.43509944.chunk.js",
-  "main.js.map": "/pokemon-wish-list/static/js/main.43509944.chunk.js.map",
+  "main.js": "/pokemon-wish-list/static/js/main.a47b066a.chunk.js",
+  "main.js.map": "/pokemon-wish-list/static/js/main.a47b066a.chunk.js.map",
   "static/js/1.2675535d.chunk.js": "/pokemon-wish-list/static/js/1.2675535d.chunk.js",
   "static/js/1.2675535d.chunk.js.map": "/pokemon-wish-list/static/js/1.2675535d.chunk.js.map",
   "runtime~main.js": "/pokemon-wish-list/static/js/runtime~main.1773593d.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/pokemon-wish-list/static/media/logo.5d5d9eef.svg",
   "static/css/main.16143678.chunk.css.map": "/pokemon-wish-list/static/css/main.16143678.chunk.css.map",
   "index.html": "/pokemon-wish-list/index.html",
-  "precache-manifest.002be7e951a29c60b020c73d2f76d75a.js": "/pokemon-wish-list/precache-manifest.002be7e951a29c60b020c73d2f76d75a.js",
+  "precache-manifest.a095c9e79ffc06fb39393fac0dd6d859.js": "/pokemon-wish-list/precache-manifest.a095c9e79ffc06fb39393fac0dd6d859.js",
   "service-worker.js": "/pokemon-wish-list/service-worker.js"
 }
