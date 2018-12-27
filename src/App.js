@@ -44,6 +44,7 @@ class App extends Component {
 				<header className="App-header">
 					<img src={logo} className="App-logo" alt="logo" />
 					<Link to="/">Home</Link>
+					<Link to="/add">Add</Link>
 					{authed ? (
 						<div className="right">
 							<button onClick={this.logout}>Logout</button>

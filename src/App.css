@@ -32,3 +32,6 @@
 .App-header .right * {
 	margin-right: 1em;
 }
+.App-header a {
+	margin-right: 1em;
+}

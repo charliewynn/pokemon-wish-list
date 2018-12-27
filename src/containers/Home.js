@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { API } from "aws-amplify";
+import PokemonList from "../components/PokemonList";
 
 export default class Home extends Component {
 	constructor(props) {
 		super(props);
-		console.log("pr", props);
+		this.state = { pokemon: [] };
 	}
 	componentWillReceiveProps(newProps) {
-		console.log("new", newProps);
-		if (newProps && newProps.authed) {
+		if (newProps && newProps.authed && !this.props.authed) {
 			this.getPokemon();
 		}
 	}
@@ -17,12 +17,17 @@ export default class Home extends Component {
 			this.getPokemon();
 		}
 	}
-	getPokemon() {
-		console.log("should get pokemon");
-		API.get("wish-list-api", "query/");
+
+	async getPokemon() {
+		const results = await API.get("wish-list-api", "query/");
+		this.setState({ pokemon: results.Items });
 	}
 	renderAuth() {
-		return <div>auth</div>;
+		return (
+			<div>
+				<PokemonList pokemon={this.state.pokemon} />
+			</div>
+		);
 	}
 	render() {
 		return (
